@@ -3,9 +3,7 @@ package org.example;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import net.sourceforge.tess4j.ITesseract;
-import net.sourceforge.tess4j.Tesseract;
-import net.sourceforge.tess4j.TesseractException;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,9 +15,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
 
 /**
  * Unit test for simple App.
