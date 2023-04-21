@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 17.23 s <<< FAILURE! - in TestSuite
+websiteLogin(org.example.AppTest)  Time elapsed: 10.051 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ac24bbaad14a7c7bac6b86f3112b1e0, findElement {using=xpath, value=//*[@id="dropdowm-menu-1"]/option[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/66/r19b5tbs005...}, goog:chromeOptions: {debuggerAddress: localhost:52699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52699/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ac24bbaad14a7c7bac6b86f3112b1e0
+	at org.example.AppTest.websiteLogin(AppTest.java:36)
+
+closeDriver(org.example.AppTest)  Time elapsed: 10.065 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ac24bbaad14a7c7bac6b86f3112b1e0, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/66/r19b5tbs005...}, goog:chromeOptions: {debuggerAddress: localhost:52699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52699/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ac24bbaad14a7c7bac6b86f3112b1e0
+	at org.example.AppTest.closeDriver(AppTest.java:50)
+

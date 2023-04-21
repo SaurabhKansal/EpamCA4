@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="/Users/saurabhkansal/IdeaProjects/EpamCA4/.idea(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://webdriveruniversity.com/.well-known/captcha/?r=%2FDropdown-Checkboxes-RadioButtons%2Findex.html"/>
+    <classes>
+      <class name="org.example.AppTest">
+        <methods>
+          <include name="websiteLogin"/>
+          <include name="closeDriver"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- org.example.AppTest -->
+    </classes>
+  </test> <!-- /Users/saurabhkansal/IdeaProjects/EpamCA4/.idea(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
